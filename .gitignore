@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Assembly and caches
+dist/
+.vite/
+.svelte-kit/
+*.tsbuildinfo
+
+# Local environment variables (secrets)
+.env
+.env.local
+.env.*.local
+
+# System garbage, logs and repomix output
+*.log
+.DS_Store
+Thumbs.db
+repomix-output.*
